@@ -106,11 +106,11 @@ public static void main(String[] args) {
     System.out.println(difference);
 
     // 10. Product of two numbers
-    int num1 = sc.nextInt();
-    int num2 = sc.nextInt();
+    num1 = sc.nextInt();
+    num2 = sc.nextInt();
     int product = num1 * num2;
-    System.out.println(product);
-
+    System.out.println(product);;
+    
     // 11. Area of a circle
     System.out.print("Enter the radius of the circle: ");
 
@@ -119,8 +119,7 @@ public static void main(String[] args) {
 
     System.out.println("Area of the circle: " + area);
 
-    // Close the Scanner after completing all input operations.
-    sc.close();
+    
 }
 
 }
